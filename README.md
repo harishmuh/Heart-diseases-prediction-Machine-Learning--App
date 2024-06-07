@@ -1,3 +1,5 @@
+![Heart Disease Image](https://beaumonteh.com/wp-content/uploads/2021/12/Heart-Disease-CVD-Cardiovascular-Disease.jpg)
+
 # Heart Disease Prediction App built by using KNN Model
 
 ## Context

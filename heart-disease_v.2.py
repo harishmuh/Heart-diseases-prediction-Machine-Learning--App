@@ -148,7 +148,7 @@ else:
 # Display input dataframe
 st.write("User Input Features:")
 st.write(input_df)# List of image file names
-image_files = ['man-heart-attack.jpg', 'woman-heart-attack.jpg']
+image_files = ['man-heart-attack.JPG', 'woman-heart-attack.JPG']
 desired_width = 180
 desired_height = 180
 
@@ -162,8 +162,8 @@ for idx, image_file in enumerate(image_files):
         col2.image(resized_img, caption=image_file, use_column_width=True)
 
 # Loading images
-heartdisease = Image.open('heart-disease.jpg')
-strongheart = Image.open('strong-heart.jpg')
+heartdisease = Image.open('heart-disease.JPG')
+strongheart = Image.open('strong-heart.JPG')
 
 # Load the best model
 loaded_model = None

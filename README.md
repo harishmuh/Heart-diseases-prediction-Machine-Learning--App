@@ -15,7 +15,7 @@ The primary objective of this capstone project is to develop a user-friendly hea
 
 The dataset for this machine learning model was obtained from the [American Journal of Cardiology](https://www.ajconline.org/article/0002-9149(89)90524-9/abstract) and has been donated to the [UCI Machine Learning repository](https://archive.ics.uci.edu/dataset/45/heart+disease). 
 
-[data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
+![data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
 
 
 ## Analytical approach

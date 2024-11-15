@@ -9,7 +9,7 @@ Heart disease remains one of the leading causes of mortality worldwide, accounti
 
 ## Objective
 
-The primary objective of this capstone project is to develop a user-friendly heart prediction application powered by machine learning algorithms. The application aims to provide individuals with a convenient tool to assess their risk of developing heart diseases based on various medical and lifestyle factors. By leveraging machine learning models trained on comprehensive datasets, the app intends to offer personalized risk assessments of heart diseases based on some available medical features.
+The primary objective of this capstone project is to develop a user-friendly heart prediction application powered by machine learning algorithms. The application aims to provide individuals with a convenient tool to assess their risk of developing heart diseases based on various medical and lifestyle factors (operated by medical staff). By leveraging machine learning models trained on comprehensive datasets, the app intends to offer personalized risk assessments of heart diseases based on some available medical features.
 
 ## Dataset Source
 
@@ -70,5 +70,5 @@ Based on the consequences above, we need to make a model that can reduce False N
 After training and testing 9 machine learning models (Random Forest, Logistic Regression, KNN, CatBoost, Gradient Boost, AdaBoost, Decision tree, LightGBM, XGBoost) to the dataset, the tuned KNN is the best model for predicting heart disease in this scenario, due to its high recall of 0.891, F1-score of 0.86 and best ROC AUC score of 0.85.
 
 ## Asset
-* [Heart Disease predictor app for the medical staff](https://heart-diseases-prediction-ml-hm.streamlit.app/)
+* [Heart Disease predictor app](https://heart-diseases-prediction-ml-hm.streamlit.app/)
 * [Presentation (PDF)](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/Developing%20heart%20disease%20prediction%20app.pdf) 

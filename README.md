@@ -15,7 +15,7 @@ The primary objective of this capstone project is to develop a user-friendly hea
 
 The dataset for this machine learning model was obtained from the [American Journal of Cardiology](https://www.ajconline.org/article/0002-9149(89)90524-9/abstract) and has been donated to the [UCI Machine Learning repository](https://archive.ics.uci.edu/dataset/45/heart+disease). 
 
-![data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
+[data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
 
 
 ## Analytical approach
@@ -33,10 +33,11 @@ Target:
 <img src="https://assets-global.website-files.com/6266b596eef18c1931f938f9/644aea65cefe35380f198a5a_class_guide_cm08.png" alt="Confusion Matrix" width="1000">
 
 Based on the model, we will have two kinds of errors
-**Type 1 error**: False Positive (Patients are predicted as having heart diseases. However in actual conditions, they do not have heart diseases)
+
+* **Type 1 error**: False Positive (Patients are predicted as having heart diseases. However in actual conditions, they do not have heart diseases)
 Consequences: The patients need to conduct further medical examination but only for assessment or verification to confirm. Due to the mistake, the image of the hospital & app developer became less reliable to the patients and the public.
 
-**Type 2 error**: False Negative (Patients are predicted as not having heart diseases. However in actual conditions, they do have heart diseases)
+* **Type 2 error**: False Negative (Patients are predicted as not having heart diseases. However in actual conditions, they do have heart diseases)
 Consequences: Patient conditions may become worse. If they do manage to get diagnosed, their heart disease treatments are more likely to be more difficult and far more expensive. Even, they may have a probability of dying before being treated.
 
 Based on the consequences above, we need to make a model that can reduce False Negatives as much as possible because the consequences of False Negatives are higher and we may lose a person's life. Thus, we are using 'recall' as a metric of evaluation.
@@ -67,3 +68,7 @@ Based on the consequences above, we need to make a model that can reduce False N
 
 ## Conclusion
 After training and testing 9 machine learning models (Random Forest, Logistic Regression, KNN, CatBoost, Gradient Boost, AdaBoost, Decision tree, LightGBM, XGBoost) to the dataset, the tuned KNN is the best model for predicting heart disease in this scenario, due to its high recall of 0.891, F1-score of 0.86 and best ROC AUC score of 0.85.
+
+## Asset
+* [Heart Disease predictor app for the medical staff](https://heart-diseases-prediction-ml-hm.streamlit.app/)
+* [Presentation (PDF)](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/Developing%20heart%20disease%20prediction%20app.pdf) 

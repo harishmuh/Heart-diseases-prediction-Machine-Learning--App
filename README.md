@@ -13,14 +13,14 @@ The primary objective of this capstone project is to develop a user-friendly hea
 
 ## Dataset Source
 
-The dataset for this machine learning model was obtained from the [American Journal of Cardiology](https://www.ajconline.org/article/0002-9149(89)90524-9/abstract) and has been donated to the [UCI Machine Learning repository](https://archive.ics.uci.edu/dataset/45/heart+disease). 
+The dataset for this machine learning model was obtained from the [American Journal of Cardiology](https://www.ajconline.org/article/0002-9149(89)90524-9/abstract). This dataset can be obtained too from the repository of [UCI Machine Learning](https://archive.ics.uci.edu/dataset/45/heart+disease). 
 
-[data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
+![data understanding](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/feature%20understanding.PNG)
 
 
 ## Analytical approach
 
-We want to analyze data to learn about patterns from features that can differentiate which patients are more likely to get heart disease and who will not. Therefore, we build binary classification models to help medical staff based on the analyzed data. Next, We compared the recall performance among 9 algorithms of machine learning consisting of Random forest, XGBoost, GradientBoosting, CatBoost, LightGBM, Decision Tree, Logistic Regression, AdaBoost, and KNN. The best 3 models was further a
+We want to analyze data to learn about patterns from features that can differentiate which patients are more likely to get heart disease and who will not. Therefore, we build binary classification models to help medical staff based on the analyzed data. Next, We compared the recall performance among 9 algorithms of machine learning consisting of Random forest, XGBoost, GradientBoosting, CatBoost, LightGBM, Decision Tree, Logistic Regression, AdaBoost, and KNN. The best 3 models were further adjusted for hyperparameter tunning.
 
 ## Metric Evaluation
 
@@ -58,7 +58,7 @@ Based on the consequences above, we need to make a model that can reduce False N
 
 ### ROC AUC curves of the top 3 models
 
-![ROC AUC](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/roc_auc_grap.PNG)
+![ROC AUC](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/roc_auc_graph.PNG)
 
 ### LIME model for the positively diagnosed patient explanation
 ![LIME Positve](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/lime_positive_patient.PNG)

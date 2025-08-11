@@ -70,5 +70,6 @@ Based on the consequences above, we need to make a model that can reduce False N
 After training and testing 9 machine learning models (Random Forest, Logistic Regression, KNN, CatBoost, Gradient Boost, AdaBoost, Decision tree, LightGBM, XGBoost) to the dataset, the tuned KNN is the best model for predicting heart disease in this scenario, due to its high recall of 0.891, F1-score of 0.86 and best ROC AUC score of 0.85.
 
 ## Asset
+* [Data visualization - Google Data Studio](https://lookerstudio.google.com/reporting/84ba7ee5-1ae7-4027-8d6b-b4a81bfb3d5c)
 * [Heart Disease predictor app](https://heart-diseases-prediction-ml-hm.streamlit.app/)
 * [Presentation (PDF)](https://github.com/harishmuh/Heart-diseases-prediction-Machine-Learning--App/blob/main/Developing%20heart%20disease%20prediction%20app.pdf) 
